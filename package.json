@@ -1,5 +1,6 @@
 {
   "name": "@rsilivestr/react-lib-template",
+  "repository": "https://github.com/rsilivestr/react-lib-template",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/rsilivestr"
   },
