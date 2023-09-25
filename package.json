@@ -1,5 +1,8 @@
 {
   "name": "@rsilivestr/react-lib-template",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/rsilivestr"
+  },
   "version": "1.0.0",
   "description": "Template for a library of react components",
   "keywords": [
