@@ -1,0 +1,17 @@
+.root {
+  background-color: skyblue;
+  border: none;
+  border-radius: 8px;
+  font-size: 40px;
+  padding: 24px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: deepskyblue;
+  }
+
+  &:active {
+    background-color: blue;
+    color: white;
+  }
+}
