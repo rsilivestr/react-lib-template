@@ -4,7 +4,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/rsilivestr"
   },
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Template for a library of react components",
   "keywords": [
     "react",
@@ -17,9 +17,11 @@
   ],
   "main": "./dist/react-lib-template.mjs",
   "module": "./dist/react-lib-template.mjs",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/react-lib-template.mjs"
+      "import": "./dist/react-lib-template.mjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
@@ -27,7 +29,7 @@
     "build": "tsc && vite build",
     "build-storybook": "storybook build",
     "lint": "eslint . --ext ts,tsx",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.4.5",
@@ -61,5 +63,8 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "dist": "link:/home/roman/dev/metalamp/rarible-uikit/dist"
   }
 }

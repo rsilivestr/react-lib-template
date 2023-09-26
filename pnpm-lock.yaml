@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  dist:
+    specifier: link:/home/roman/dev/metalamp/rarible-uikit/dist
+    version: link:dist
+
 devDependencies:
   '@storybook/addon-essentials':
     specifier: ^7.4.5
