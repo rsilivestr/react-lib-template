@@ -30,4 +30,10 @@ export const Body = {
     children:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi delectus fuga totam iusto dignissimos. Aperiam quis ipsa qui sint id, autem voluptatibus neque ipsam illum inventore dignissimos sed adipisci dolorem sunt aspernatur ducimus eveniet esse? Fugiat, at id ipsa, accusamus nostrum iure ex ratione commodi, maiores velit maxime corrupti culpa!',
   },
+  argTypes: {
+    element: {
+      options: [undefined, 'span', 'strong', 'em', 'li'],
+      control: { type: 'select' },
+    },
+  },
 };
