@@ -1,6 +1,38 @@
-.root {
+.text {
   color: deeppink;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.5;
+
+  &--variant {
+    &_h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+    &_h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+    &_h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    &_body1 {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.6;
+    }
+  }
+
+  &--align {
+    &_center {
+      text-align: center;
+    }
+    &_left {
+      text-align: left;
+    }
+    &_right {
+      text-align: right;
+    }
+  }
 }
