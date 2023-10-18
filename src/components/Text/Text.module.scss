@@ -1,4 +1,8 @@
+@use '@/styles/color';
+
 .text {
+  color: color.$text;
+
   &--variant {
     &_h1 {
       font-size: 3rem;

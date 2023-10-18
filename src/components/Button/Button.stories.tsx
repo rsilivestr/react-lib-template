@@ -7,5 +7,7 @@ export default {
 };
 
 export const Primary = {
-  args: {},
+  args: {
+    children: 'Click Me',
+  },
 };

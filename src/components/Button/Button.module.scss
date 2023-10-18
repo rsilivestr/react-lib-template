@@ -1,17 +1,19 @@
+@use '@/styles/color';
+
 .root {
-  background-color: skyblue;
+  background-color: color.$primary;
   border: none;
   border-radius: 8px;
-  font-size: 40px;
-  padding: 24px;
+  color: color.$background;
+  font-size: 20px;
+  padding: 12px 24px;
   cursor: pointer;
 
   &:hover {
-    background-color: deepskyblue;
+    background-color: rgb(color.$primary-rgb / 80%);
   }
 
   &:active {
-    background-color: blue;
-    color: white;
+    background-color: rgb(color.$primary-rgb / 90%);
   }
 }
